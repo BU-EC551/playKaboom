@@ -1,0 +1,9 @@
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\bin\Debug\GetPixelInfo.exe.config
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\bin\Debug\GetPixelInfo.exe
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\bin\Debug\GetPixelInfo.pdb
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.csprojResolveAssemblyReference.cache
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.Form1.resources
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.Properties.Resources.resources
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.csproj.GenerateResource.Cache
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.exe
+C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sprites\GetPixelInfo\GetPixelInfo\obj\Debug\GetPixelInfo.pdb

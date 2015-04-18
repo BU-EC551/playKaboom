@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sound_FX\clk_div.ncd
+OUTFILE=C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sound_FX\clk_div.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\Sound_FX
+LICENSE=ISE
+USER_INFO=174135685_174135686_210570941_745

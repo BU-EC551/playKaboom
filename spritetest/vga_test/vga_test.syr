@@ -1,0 +1,294 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: vga_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_test"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : vga_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\ipcore_dir\bomb.v" into library work
+Parsing module <bomb>.
+Analyzing Verilog file "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" into library work
+Parsing module <vga_test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <vga_test>.
+
+Elaborating module <bomb>.
+WARNING:HDLCompiler:1499 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\ipcore_dir\bomb.v" Line 39: Empty module <bomb> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 25: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 27: Size mismatch in connection of port <dina>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 28: Size mismatch in connection of port <douta>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 28: Assignment to bomb_dout ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 25: Net <bomb_addr> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 26: Net <bomb_clk> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 27: Net <bomb_din> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" Line 29: Net <bomb_we> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vga_test>.
+    Related source file is "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v".
+INFO:Xst:3210 - "C:\Users\Juan Carlos\Documents\Boston University\Spring 2015\Advanced Digital Design with Verilog and FPGA EC551\Project\spritetest\vga_test\vga_test.v" line 24: Output port <douta> of the instance <ram> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <bomb_addr> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <bomb_clk> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <bomb_din> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <bomb_we> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <vga_test> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/bomb.ngc>.
+Loading core <bomb> for timing and area information for instance <ram>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <vga_test> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vga_test, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : vga_test.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 3
+#      GND                         : 2
+#      VCC                         : 1
+# RAMS                             : 1
+#      RAMB8BWER                   : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           0
+ Number of bonded IOBs:                   0  out of    232     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                       | Load  |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+ram/N1                             | NONE(ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)| 1     |
+bomb_we                            | NONE(ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)| 1     |
+-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.10 secs
+ 
+--> 
+
+Total memory usage is 257060 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

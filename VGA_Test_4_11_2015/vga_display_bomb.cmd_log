@@ -1,0 +1,928 @@
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.xst" -ofn "X:/551_Project/VGA_Test_bomb/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "X:/EC551_Rama/VGA_Test/vga_display_bomb.xst" -ofn "X:/EC551_Rama/VGA_Test/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 vga_display_bomb.ngc vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/VGA_Test_v2/vga_display_bomb.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display_bomb.ngc" vga_display_bomb.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_bomb_map.ncd vga_display_bomb.ngd vga_display_bomb.pcf 
+par -w -intstyle ise -ol high -mt off vga_display_bomb_map.ncd vga_display_bomb.ncd vga_display_bomb.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_display_bomb.twx vga_display_bomb.ncd -o vga_display_bomb.twr vga_display_bomb.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
+bitgen -intstyle ise -f vga_display_bomb.ut vga_display_bomb.ncd 
