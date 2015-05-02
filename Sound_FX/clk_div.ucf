@@ -1,7 +1,0 @@
-
-
-NET "Clk_in" LOC = V10;
-NET "Clk_out" LOC = G11;
-NET "gain" LOC = F10;
-NET "shutdown" LOC = E11;
-NET "play" LOC = D9;

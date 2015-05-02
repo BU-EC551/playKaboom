@@ -1,8 +1,0 @@
-verilog work "VGA_control.v"
-verilog work "ipcore_dir/Sad_Bomber.v"
-verilog work "ipcore_dir/pad.v"
-verilog work "ipcore_dir/HappyBomber_NoBomb.v"
-verilog work "ipcore_dir/HappyBomber_bomb.v"
-verilog work "ipcore_dir/Explosion.v"
-verilog work "ipcore_dir/bomb_sprite.v"
-verilog work "VGA_display.v"
