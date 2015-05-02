@@ -1,0 +1,113 @@
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc clk_div.ucf -p xc6slx16-csg324-3 "clk_div.ngc" clk_div.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk_div_map.ncd clk_div.ngd clk_div.pcf 
+par -w -intstyle ise -ol high -mt off clk_div_map.ncd clk_div.ncd clk_div.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk_div.twx clk_div.ncd -o clk_div.twr clk_div.pcf -ucf clk_div.ucf 
+bitgen -intstyle ise -f clk_div.ut clk_div.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.xst" -ofn "C:/Users/Juan Carlos/Documents/Boston University/Spring 2015/Advanced Digital Design with Verilog and FPGA EC551/Project/Sound_FX/clk_div.syr" 
