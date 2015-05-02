@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="R">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="G">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="B">
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="seven">
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="svn_digit">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="rst" Dir="IN"/>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="move" Dir="IN"/>
+		<Port Id="back" Dir="IN"/>
+		<Port Id="pad_r" Dir="IN"/>
+		<Port Id="pad_l" Dir="IN"/>
+		<Port Id="title_toggle" Dir="IN"/>
+		<Port Id="rst_bmb" Dir="OUT"/>
+		<Port Id="HS" Dir="OUT"/>
+		<Port Id="VS" Dir="OUT"/>
+		<Port Id="test_led0" Dir="OUT"/>
+		<Port Id="test_led1" Dir="OUT"/>
+	</Ifc>
+</Interface>
+
