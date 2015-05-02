@@ -1,6 +1,0 @@
-verilog work "sprites_sync.v"
-verilog work "VGA_display.v"
-verilog work "ipcore_dir/btwo_synth.v"
-verilog work "ipcore_dir/bthree_synth.v"
-verilog work "ipcore_dir/bfour_synth.v"
-verilog work "ipcore_dir/bfive_synth.v"

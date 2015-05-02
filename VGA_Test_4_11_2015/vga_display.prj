@@ -1,3 +1,0 @@
-verilog work "VGA_control.v"
-verilog work "ipcore_dir/bomb_sprite.v"
-verilog work "VGA_display.v"
