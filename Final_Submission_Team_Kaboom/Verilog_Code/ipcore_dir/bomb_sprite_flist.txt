@@ -1,0 +1,3 @@
+# Output products list for <bomb_sprite>
+bomb_sprite.xco
+bomb_sprite_flist.txt
